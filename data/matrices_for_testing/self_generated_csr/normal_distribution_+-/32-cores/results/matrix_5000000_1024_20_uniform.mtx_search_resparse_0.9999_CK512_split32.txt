@@ -1,0 +1,188 @@
+Epoch:  0
+Before Resparse: Number of non-zero entries: 98986396, Density: 1.93%
+Resparse CSR with top_percent=100.00%
+After Resparse: Number of non-zero entries: 98986396, Density: 1.93%
+After Quantification: Number of non-zero entries: 91732276, Density: 1.79%
+ROWS=5000000	COLS=1024	density=1.79%	split=32	TEST_NUM=100	B=6
+CK=512
+K=1	avg_precison:100.0%	recall:100.0%
+K=8	avg_precison:100.0%	recall:100.0%
+K=16	avg_precison:100.0%	recall:100.0%
+K=32	avg_precison:100.0%	recall:100.0%
+K=50	avg_precison:100.0%	recall:100.0%
+K=75	avg_precison:100.0%	recall:100.0%
+K=100	avg_precison:100.0%	recall:100.0%
+Convergence_matrics:1.2620833333333334
+Convergence: [1.2620833333333334, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+
+Epoch:  1
+Before Resparse: Number of non-zero entries: 98986396, Density: 1.93%
+Resparse CSR with top_percent=50.00%
+After Resparse: Number of non-zero entries: 50707073, Density: 0.99%
+After Quantification: Number of non-zero entries: 50707072, Density: 0.99%
+ROWS=5000000	COLS=1024	density=0.99%	split=32	TEST_NUM=100	B=6
+CK=512
+K=1	avg_precison:100.0%	recall:100.0%
+K=8	avg_precison:93.5%	recall:58.00000000000001%
+K=16	avg_precison:89.6875%	recall:17.000000000000004%
+K=32	avg_precison:85.125%	recall:1.0000000000000009%
+K=50	avg_precison:80.69999999999999%	recall:0.0%
+K=75	avg_precison:76.41333333333333%	recall:0.0%
+K=100	avg_precison:72.53%	recall:0.0%
+Convergence_matrics:1.2331126944444446
+Convergence: [1.2620833333333334, 1.2331126944444446, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+
+Epoch:  2
+Before Resparse: Number of non-zero entries: 98986396, Density: 1.93%
+Resparse CSR with top_percent=75.00%
+After Resparse: Number of non-zero entries: 76136104, Density: 1.49%
+After Quantification: Number of non-zero entries: 76111409, Density: 1.49%
+ROWS=5000000	COLS=1024	density=1.49%	split=32	TEST_NUM=100	B=6
+CK=512
+K=1	avg_precison:100.0%	recall:100.0%
+K=8	avg_precison:100.0%	recall:100.0%
+K=16	avg_precison:100.0%	recall:100.0%
+K=32	avg_precison:100.0%	recall:100.0%
+K=50	avg_precison:99.75999999999999%	recall:90.0%
+K=75	avg_precison:99.4533333333333%	recall:68.0%
+K=100	avg_precison:98.92999999999994%	recall:36.0%
+Convergence_matrics:1.2618554444444443
+Convergence: [1.2620833333333334, 1.2331126944444446, 1.2618554444444443, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+
+Epoch:  3
+Before Resparse: Number of non-zero entries: 98986396, Density: 1.93%
+Resparse CSR with top_percent=87.50%
+After Resparse: Number of non-zero entries: 88843433, Density: 1.74%
+After Quantification: Number of non-zero entries: 87729536, Density: 1.71%
+ROWS=5000000	COLS=1024	density=1.71%	split=32	TEST_NUM=100	B=6
+CK=512
+K=1	avg_precison:100.0%	recall:100.0%
+K=8	avg_precison:100.0%	recall:100.0%
+K=16	avg_precison:100.0%	recall:100.0%
+K=32	avg_precison:100.0%	recall:100.0%
+K=50	avg_precison:100.0%	recall:100.0%
+K=75	avg_precison:100.0%	recall:100.0%
+K=100	avg_precison:99.96000000000001%	recall:96.0%
+Convergence_matrics:1.2620793333333333
+Convergence: [1.2620833333333334, 1.2331126944444446, 1.2618554444444443, 1.2620793333333333, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+
+Epoch:  4
+Before Resparse: Number of non-zero entries: 98986396, Density: 1.93%
+Resparse CSR with top_percent=81.20%
+After Resparse: Number of non-zero entries: 82739354, Density: 1.62%
+After Quantification: Number of non-zero entries: 82526672, Density: 1.61%
+ROWS=5000000	COLS=1024	density=1.61%	split=32	TEST_NUM=100	B=6
+CK=512
+K=1	avg_precison:100.0%	recall:100.0%
+K=8	avg_precison:100.0%	recall:100.0%
+K=16	avg_precison:100.0%	recall:100.0%
+K=32	avg_precison:100.0%	recall:100.0%
+K=50	avg_precison:100.0%	recall:100.0%
+K=75	avg_precison:99.94666666666666%	recall:96.0%
+K=100	avg_precison:99.66%	recall:74.0%
+Convergence_matrics:1.262042222222222
+Convergence: [1.2620833333333334, 1.2331126944444446, 1.2618554444444443, 1.2620793333333333, 1.262042222222222, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+
+Epoch:  5
+Before Resparse: Number of non-zero entries: 98986396, Density: 1.93%
+Resparse CSR with top_percent=78.10%
+After Resparse: Number of non-zero entries: 79685045, Density: 1.56%
+After Quantification: Number of non-zero entries: 79605169, Density: 1.55%
+ROWS=5000000	COLS=1024	density=1.55%	split=32	TEST_NUM=100	B=6
+CK=512
+K=1	avg_precison:100.0%	recall:100.0%
+K=8	avg_precison:100.0%	recall:100.0%
+K=16	avg_precison:100.0%	recall:100.0%
+K=32	avg_precison:100.0%	recall:100.0%
+K=50	avg_precison:99.94%	recall:98.0%
+K=75	avg_precison:99.75999999999998%	recall:83.0%
+K=100	avg_precison:99.41999999999996%	recall:57.00000000000001%
+Convergence_matrics:1.2619813333333332
+Convergence: [1.2620833333333334, 1.2331126944444446, 1.2618554444444443, 1.2620793333333333, 1.262042222222222, 1.2619813333333332, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+
+Epoch:  6
+Before Resparse: Number of non-zero entries: 98986396, Density: 1.93%
+Resparse CSR with top_percent=76.60%
+After Resparse: Number of non-zero entries: 78305411, Density: 1.53%
+After Quantification: Number of non-zero entries: 78254296, Density: 1.53%
+ROWS=5000000	COLS=1024	density=1.53%	split=32	TEST_NUM=100	B=6
+CK=512
+K=1	avg_precison:100.0%	recall:100.0%
+K=8	avg_precison:100.0%	recall:100.0%
+K=16	avg_precison:100.0%	recall:100.0%
+K=32	avg_precison:99.9375%	recall:98.0%
+K=50	avg_precison:99.84%	recall:92.0%
+K=75	avg_precison:99.66666666666664%	recall:79.0%
+K=100	avg_precison:99.37999999999997%	recall:55.00000000000001%
+Convergence_matrics:1.261925357638889
+Convergence: [1.2620833333333334, 1.2331126944444446, 1.2618554444444443, 1.2620793333333333, 1.262042222222222, 1.2619813333333332, 1.261925357638889, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+
+Epoch:  7
+Before Resparse: Number of non-zero entries: 98986396, Density: 1.93%
+Resparse CSR with top_percent=77.40%
+After Resparse: Number of non-zero entries: 79188846, Density: 1.55%
+After Quantification: Number of non-zero entries: 79120652, Density: 1.55%
+ROWS=5000000	COLS=1024	density=1.55%	split=32	TEST_NUM=100	B=6
+CK=512
+K=1	avg_precison:100.0%	recall:100.0%
+K=8	avg_precison:100.0%	recall:100.0%
+K=16	avg_precison:100.0%	recall:100.0%
+K=32	avg_precison:99.96875%	recall:99.0%
+K=50	avg_precison:99.9%	recall:95.0%
+K=75	avg_precison:99.75999999999996%	recall:82.0%
+K=100	avg_precison:99.50999999999995%	recall:58.00000000000001%
+Convergence_matrics:1.2619725677083335
+Convergence: [1.2620833333333334, 1.2331126944444446, 1.2618554444444443, 1.2620793333333333, 1.262042222222222, 1.2619813333333332, 1.261925357638889, 1.2619725677083335, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+
+Epoch:  8
+Before Resparse: Number of non-zero entries: 98986396, Density: 1.93%
+Resparse CSR with top_percent=77.00%
+After Resparse: Number of non-zero entries: 78946366, Density: 1.54%
+After Quantification: Number of non-zero entries: 78882629, Density: 1.54%
+ROWS=5000000	COLS=1024	density=1.54%	split=32	TEST_NUM=100	B=6
+CK=512
+K=1	avg_precison:100.0%	recall:100.0%
+K=8	avg_precison:100.0%	recall:100.0%
+K=16	avg_precison:100.0%	recall:100.0%
+K=32	avg_precison:99.96875%	recall:99.0%
+K=50	avg_precison:99.88000000000001%	recall:94.0%
+K=75	avg_precison:99.71999999999998%	recall:82.0%
+K=100	avg_precison:99.37999999999995%	recall:52.0%
+Convergence_matrics:1.261950234375
+Convergence: [1.2620833333333334, 1.2331126944444446, 1.2618554444444443, 1.2620793333333333, 1.262042222222222, 1.2619813333333332, 1.261925357638889, 1.2619725677083335, 1.261950234375, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+
+Epoch:  9
+Before Resparse: Number of non-zero entries: 98986396, Density: 1.93%
+Resparse CSR with top_percent=77.20%
+After Resparse: Number of non-zero entries: 78946366, Density: 1.54%
+After Quantification: Number of non-zero entries: 78882629, Density: 1.54%
+ROWS=5000000	COLS=1024	density=1.54%	split=32	TEST_NUM=100	B=6
+CK=512
+K=1	avg_precison:100.0%	recall:100.0%
+K=8	avg_precison:100.0%	recall:100.0%
+K=16	avg_precison:99.9375%	recall:99.0%
+K=32	avg_precison:99.9375%	recall:98.0%
+K=50	avg_precison:99.9%	recall:95.0%
+K=75	avg_precison:99.75999999999996%	recall:84.0%
+K=100	avg_precison:99.24999999999994%	recall:50.0%
+Convergence_matrics:1.2618977395833335
+Convergence: [1.2620833333333334, 1.2331126944444446, 1.2618554444444443, 1.2620793333333333, 1.262042222222222, 1.2619813333333332, 1.261925357638889, 1.2619725677083335, 1.261950234375, 1.2618977395833335, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+
+Epoch:  10
+Before Resparse: Number of non-zero entries: 98986396, Density: 1.93%
+Resparse CSR with top_percent=77.30%
+After Resparse: Number of non-zero entries: 79188846, Density: 1.55%
+After Quantification: Number of non-zero entries: 79120652, Density: 1.55%
+ROWS=5000000	COLS=1024	density=1.55%	split=32	TEST_NUM=100	B=6
+CK=512
+K=1	avg_precison:100.0%	recall:100.0%
+K=8	avg_precison:100.0%	recall:100.0%
+K=16	avg_precison:100.0%	recall:100.0%
+K=32	avg_precison:100.0%	recall:100.0%
+K=50	avg_precison:99.98%	recall:99.0%
+K=75	avg_precison:99.78666666666666%	recall:86.0%
+K=100	avg_precison:99.45999999999991%	recall:54.0%
+Convergence_matrics:1.2619968888888888
+
+Convergence reached 77.3%, accuracy_threshold=0.9999, stop testing
+

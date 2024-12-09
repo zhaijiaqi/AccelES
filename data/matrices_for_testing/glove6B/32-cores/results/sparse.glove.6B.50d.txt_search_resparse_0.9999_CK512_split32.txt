@@ -1,0 +1,199 @@
+Epoch:  0
+Before ReSparse: Number of non-zero entries: 27659149, Density: 13.83%
+Resparse SpM with top_percent=100.00%
+After ReSparse: Number of non-zero entries: 27659149, Density: 13.83%
+After quantification: Number of non-zero entries: 25968341, Density: 12.98%
+TEST_NUM=100
+SPLIT=32
+CK=512
+K=100
+K=1	avg_precision:100.0%	recall=100.0%
+K=8	avg_precision:100.0%	recall=100.0%
+K=16	avg_precision:100.0%	recall=100.0%
+K=32	avg_precision:100.0%	recall=100.0%
+K=50	avg_precision:100.0%	recall=100.0%
+K=75	avg_precision:100.0%	recall=100.0%
+K=100	avg_precision:100.0%	recall=100.0%
+Convergence: [1.2620833333333334, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+
+Epoch:  1
+Before ReSparse: Number of non-zero entries: 27659149, Density: 13.83%
+Resparse SpM with top_percent=50.00%
+After ReSparse: Number of non-zero entries: 14052734, Density: 7.03%
+After quantification: Number of non-zero entries: 14052738, Density: 7.03%
+TEST_NUM=100
+SPLIT=32
+CK=512
+K=100
+K=1	avg_precision:100.0%	recall=100.0%
+K=8	avg_precision:99.38%	recall=95.0%
+K=16	avg_precision:99.31%	recall=90.0%
+K=32	avg_precision:98.88%	recall=72.0%
+K=50	avg_precision:97.8%	recall=39.0%
+K=75	avg_precision:96.4%	recall=7.000000000000001%
+K=100	avg_precision:94.73%	recall=0.0%
+Convergence: [1.2620833333333334, 1.2590738333333336, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+
+Epoch:  2
+Before ReSparse: Number of non-zero entries: 27659149, Density: 13.83%
+Resparse SpM with top_percent=75.00%
+After ReSparse: Number of non-zero entries: 20954935, Density: 10.48%
+After quantification: Number of non-zero entries: 20954905, Density: 10.48%
+TEST_NUM=100
+SPLIT=32
+CK=512
+K=100
+K=1	avg_precision:100.0%	recall=100.0%
+K=8	avg_precision:100.0%	recall=100.0%
+K=16	avg_precision:100.0%	recall=100.0%
+K=32	avg_precision:100.0%	recall=100.0%
+K=50	avg_precision:100.0%	recall=100.0%
+K=75	avg_precision:99.99%	recall=99.0%
+K=100	avg_precision:99.98%	recall=98.0%
+Convergence: [1.2620833333333334, 1.2590738333333336, 1.2620795555555555, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+
+Epoch:  3
+Before ReSparse: Number of non-zero entries: 27659149, Density: 13.83%
+Resparse SpM with top_percent=62.50%
+After ReSparse: Number of non-zero entries: 17553467, Density: 8.78%
+After quantification: Number of non-zero entries: 17553465, Density: 8.78%
+TEST_NUM=100
+SPLIT=32
+CK=512
+K=100
+K=1	avg_precision:100.0%	recall=100.0%
+K=8	avg_precision:100.0%	recall=100.0%
+K=16	avg_precision:99.94%	recall=99.0%
+K=32	avg_precision:99.97%	recall=99.0%
+K=50	avg_precision:99.82%	recall=91.0%
+K=75	avg_precision:99.57%	recall=72.0%
+K=100	avg_precision:99.06%	recall=37.0%
+Convergence: [1.2620833333333334, 1.2590738333333336, 1.2620795555555555, 1.2618476163194445, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+
+Epoch:  4
+Before ReSparse: Number of non-zero entries: 27659149, Density: 13.83%
+Resparse SpM with top_percent=68.80%
+After ReSparse: Number of non-zero entries: 19303411, Density: 9.65%
+After quantification: Number of non-zero entries: 19303405, Density: 9.65%
+TEST_NUM=100
+SPLIT=32
+CK=512
+K=100
+K=1	avg_precision:100.0%	recall=100.0%
+K=8	avg_precision:100.0%	recall=100.0%
+K=16	avg_precision:100.0%	recall=100.0%
+K=32	avg_precision:100.0%	recall=100.0%
+K=50	avg_precision:99.96%	recall=98.0%
+K=75	avg_precision:99.91%	recall=93.0%
+K=100	avg_precision:99.74%	recall=75.0%
+Convergence: [1.2620833333333334, 1.2590738333333336, 1.2620795555555555, 1.2618476163194445, 1.2620368888888889, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+
+Epoch:  5
+Before ReSparse: Number of non-zero entries: 27659149, Density: 13.83%
+Resparse SpM with top_percent=65.60%
+After ReSparse: Number of non-zero entries: 18427244, Density: 9.21%
+After quantification: Number of non-zero entries: 18427240, Density: 9.21%
+TEST_NUM=100
+SPLIT=32
+CK=512
+K=100
+K=1	avg_precision:100.0%	recall=100.0%
+K=8	avg_precision:100.0%	recall=100.0%
+K=16	avg_precision:100.0%	recall=100.0%
+K=32	avg_precision:100.0%	recall=100.0%
+K=50	avg_precision:99.94%	recall=97.0%
+K=75	avg_precision:99.83%	recall=88.0%
+K=100	avg_precision:99.63%	recall=68.0%
+Convergence: [1.2620833333333334, 1.2590738333333336, 1.2620795555555555, 1.2618476163194445, 1.2620368888888889, 1.262011222222222, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+
+Epoch:  6
+Before ReSparse: Number of non-zero entries: 27659149, Density: 13.83%
+Resparse SpM with top_percent=64.10%
+After ReSparse: Number of non-zero entries: 18013753, Density: 9.01%
+After quantification: Number of non-zero entries: 18013750, Density: 9.01%
+TEST_NUM=100
+SPLIT=32
+CK=512
+K=100
+K=1	avg_precision:100.0%	recall=100.0%
+K=8	avg_precision:100.0%	recall=100.0%
+K=16	avg_precision:100.0%	recall=100.0%
+K=32	avg_precision:99.94%	recall=98.0%
+K=50	avg_precision:99.74%	recall=87.0%
+K=75	avg_precision:99.67%	recall=79.0%
+K=100	avg_precision:99.37%	recall=53.0%
+Convergence: [1.2620833333333334, 1.2590738333333336, 1.2620795555555555, 1.2618476163194445, 1.2620368888888889, 1.262011222222222, 1.261904357638889, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+
+Epoch:  7
+Before ReSparse: Number of non-zero entries: 27659149, Density: 13.83%
+Resparse SpM with top_percent=64.90%
+After ReSparse: Number of non-zero entries: 18233171, Density: 9.12%
+After quantification: Number of non-zero entries: 18233167, Density: 9.12%
+TEST_NUM=100
+SPLIT=32
+CK=512
+K=100
+K=1	avg_precision:100.0%	recall=100.0%
+K=8	avg_precision:100.0%	recall=100.0%
+K=16	avg_precision:100.0%	recall=100.0%
+K=32	avg_precision:99.97%	recall=99.0%
+K=50	avg_precision:99.94%	recall=97.0%
+K=75	avg_precision:99.75%	recall=84.0%
+K=100	avg_precision:99.49%	recall=61.0%
+Convergence: [1.2620833333333334, 1.2590738333333336, 1.2620795555555555, 1.2618476163194445, 1.2620368888888889, 1.262011222222222, 1.261904357638889, 1.2619767899305554, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+
+Epoch:  8
+Before ReSparse: Number of non-zero entries: 27659149, Density: 13.83%
+Resparse SpM with top_percent=64.50%
+After ReSparse: Number of non-zero entries: 18123493, Density: 9.06%
+After quantification: Number of non-zero entries: 18123489, Density: 9.06%
+TEST_NUM=100
+SPLIT=32
+CK=512
+K=100
+K=1	avg_precision:100.0%	recall=100.0%
+K=8	avg_precision:100.0%	recall=100.0%
+K=16	avg_precision:100.0%	recall=100.0%
+K=32	avg_precision:100.0%	recall=100.0%
+K=50	avg_precision:99.86%	recall=94.0%
+K=75	avg_precision:99.72%	recall=82.0%
+K=100	avg_precision:99.35%	recall=50.0%
+Convergence: [1.2620833333333334, 1.2590738333333336, 1.2620795555555555, 1.2618476163194445, 1.2620368888888889, 1.262011222222222, 1.261904357638889, 1.2619767899305554, 1.261953, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+
+Epoch:  9
+Before ReSparse: Number of non-zero entries: 27659149, Density: 13.83%
+Resparse SpM with top_percent=64.70%
+After ReSparse: Number of non-zero entries: 18171142, Density: 9.09%
+After quantification: Number of non-zero entries: 18171138, Density: 9.09%
+TEST_NUM=100
+SPLIT=32
+CK=512
+K=100
+K=1	avg_precision:100.0%	recall=100.0%
+K=8	avg_precision:100.0%	recall=100.0%
+K=16	avg_precision:100.0%	recall=100.0%
+K=32	avg_precision:100.0%	recall=100.0%
+K=50	avg_precision:99.98%	recall=99.0%
+K=75	avg_precision:99.85%	recall=90.0%
+K=100	avg_precision:99.58%	recall=64.0%
+Convergence: [1.2620833333333334, 1.2590738333333336, 1.2620795555555555, 1.2618476163194445, 1.2620368888888889, 1.262011222222222, 1.261904357638889, 1.2619767899305554, 1.261953, 1.2620177777777777, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+
+Epoch:  10
+Before ReSparse: Number of non-zero entries: 27659149, Density: 13.83%
+Resparse SpM with top_percent=64.60%
+After ReSparse: Number of non-zero entries: 18150294, Density: 9.08%
+After quantification: Number of non-zero entries: 18150290, Density: 9.08%
+TEST_NUM=100
+SPLIT=32
+CK=512
+K=100
+K=1	avg_precision:100.0%	recall=100.0%
+K=8	avg_precision:100.0%	recall=100.0%
+K=16	avg_precision:100.0%	recall=100.0%
+K=32	avg_precision:100.0%	recall=100.0%
+K=50	avg_precision:99.96%	recall=98.0%
+K=75	avg_precision:99.65%	recall=79.0%
+K=100	avg_precision:99.34%	recall=56.00000000000001%
+
+Convergence reached 64.60000000000001%, accuracy_threshold=0.9999, stop testing
+
